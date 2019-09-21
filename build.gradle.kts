@@ -5,6 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.0.8.RELEASE"
 	kotlin("jvm") version "1.2.71"
 	kotlin("plugin.spring") version "1.2.71"
+	id("com.google.cloud.tools.appengine") version ("2.1.0") // 追加
 }
 
 group = "com.example"
