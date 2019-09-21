@@ -30,3 +30,10 @@ tasks.withType<KotlinCompile> {
 		jvmTarget = "1.8"
 	}
 }
+
+appengine {
+	deploy {
+		projectId = "GCLOUD_CONFIG"
+		version = "GCLOUD_CONFIG"
+	}
+}
